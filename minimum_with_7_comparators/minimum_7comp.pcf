@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Fri Nov 11 16:49:10 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+TIMEGRP clk = BEL "re3/q_5" BEL "re3/q_4" BEL "re3/q_3" BEL "re3/q_2" BEL
+        "re3/q_1" BEL "re3/q_0" BEL "re2/q_5" BEL "re2/q_4" BEL "re2/q_3" BEL
+        "re2/q_2" BEL "re2/q_1" BEL "re2/q_0" BEL "re1/q_5" BEL "re1/q_4" BEL
+        "re1/q_3" BEL "re1/q_2" BEL "re1/q_1" BEL "re1/q_0" BEL "rei8/q_5" BEL
+        "rei8/q_4" BEL "rei8/q_3" BEL "rei8/q_2" BEL "rei8/q_1" BEL "rei8/q_0"
+        BEL "rei7/q_5" BEL "rei7/q_4" BEL "rei7/q_3" BEL "rei7/q_2" BEL
+        "rei7/q_1" BEL "rei7/q_0" BEL "rei6/q_5" BEL "rei6/q_4" BEL "rei6/q_3"
+        BEL "rei6/q_2" BEL "rei6/q_1" BEL "rei6/q_0" BEL "rei5/q_5" BEL
+        "rei5/q_4" BEL "rei5/q_3" BEL "rei5/q_2" BEL "rei5/q_1" BEL "rei5/q_0"
+        BEL "rei4/q_5" BEL "rei4/q_4" BEL "rei4/q_3" BEL "rei4/q_2" BEL
+        "rei4/q_1" BEL "rei4/q_0" BEL "rei3/q_5" BEL "rei3/q_4" BEL "rei3/q_3"
+        BEL "rei3/q_2" BEL "rei3/q_1" BEL "rei3/q_0" BEL "rei2/q_5" BEL
+        "rei2/q_4" BEL "rei2/q_3" BEL "rei2/q_2" BEL "rei2/q_1" BEL "rei2/q_0"
+        BEL "rei1/q_5" BEL "rei1/q_4" BEL "rei1/q_3" BEL "rei1/q_2" BEL
+        "rei1/q_1" BEL "rei1/q_0" BEL "re6/q_2" BEL "re6/q_1" BEL "re6/q_0"
+        BEL "re5/q_2" BEL "re5/q_1" BEL "re5/q_0" BEL "re4/q_1" BEL "re4/q_0"
+        BEL "clk_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "clk" 3.8 ns HIGH 50%;
+SCHEMATIC END;
+

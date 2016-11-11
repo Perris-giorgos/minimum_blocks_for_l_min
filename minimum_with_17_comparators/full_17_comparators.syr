@@ -1,0 +1,450 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: full_17_comparators.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "full_17_comparators.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "full_17_comparators"
+Output Format                      : NGC
+Target Device                      : xc6vlx240t-1-ff1156
+
+---- Source Options
+Top Module Name                    : full_17_comparators
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/my_types_pkg.vhd" into library work
+Parsing package <my_types_pkg>.
+Parsing package body <my_types_pkg>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/registerN.vhd" into library work
+Parsing entity <registerN>.
+Parsing architecture <Behavioral> of entity <registern>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/register3bit.vhd" into library work
+Parsing entity <register3bit>.
+Parsing architecture <Behavioral> of entity <register3bit>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/comparator.vhd" into library work
+Parsing entity <Comparator>.
+Parsing architecture <comp> of entity <comparator>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" into library work
+Parsing entity <full_17_comparators>.
+Parsing architecture <two_min_with> of entity <full_17_comparators>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <full_17_comparators> (architecture <two_min_with>) from library <work>.
+
+Elaborating entity <registerN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Comparator> (architecture <comp>) from library <work>.
+
+Elaborating entity <register3bit> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_17_comparators>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd".
+INFO:Xst:3210 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" line 86: Output port <maxi> of the instance <c11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" line 86: Output port <min_2pos> of the instance <c11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" line 87: Output port <maxi> of the instance <c12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" line 87: Output port <min_2pos> of the instance <c12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" line 108: Output port <mium> of the instance <c14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" line 108: Output port <minpos> of the instance <c14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" line 113: Output port <maxi> of the instance <c15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" line 113: Output port <min_2pos> of the instance <c15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" line 114: Output port <maxi> of the instance <c16> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd" line 114: Output port <min_2pos> of the instance <c16> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <full_17_comparators> synthesized.
+
+Synthesizing Unit <registerN>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/registerN.vhd".
+    Found 6-bit register for signal <q>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <registerN> synthesized.
+
+Synthesizing Unit <Comparator>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/comparator.vhd".
+    Found 6-bit comparator greater for signal <LLR1[5]_LLR2[5]_LessThan_1_o> created at line 27
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   4 Multiplexer(s).
+Unit <Comparator> synthesized.
+
+Synthesizing Unit <register3bit>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/register3bit.vhd".
+    Found 3-bit register for signal <q>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <register3bit> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 14
+ 3-bit register                                        : 3
+ 6-bit register                                        : 11
+# Comparators                                          : 17
+ 6-bit comparator greater                              : 17
+# Multiplexers                                         : 68
+ 3-bit 2-to-1 multiplexer                              : 34
+ 6-bit 2-to-1 multiplexer                              : 34
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 75
+ Flip-Flops                                            : 75
+# Comparators                                          : 17
+ 6-bit comparator greater                              : 17
+# Multiplexers                                         : 68
+ 3-bit 2-to-1 multiplexer                              : 34
+ 6-bit 2-to-1 multiplexer                              : 34
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <full_17_comparators> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block full_17_comparators, actual ratio is 0.
+FlipFlop regin1/q_5 has been replicated 4 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop regin1/q_5 connected to a primary input has been replicated
+FlipFlop regin2/q_5 has been replicated 4 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop regin2/q_5 connected to a primary input has been replicated
+FlipFlop regin3/q_5 has been replicated 4 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop regin3/q_5 connected to a primary input has been replicated
+FlipFlop regin4/q_5 has been replicated 3 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop regin4/q_5 connected to a primary input has been replicated
+FlipFlop regin5/q_5 has been replicated 1 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop regin5/q_5 connected to a primary input has been replicated
+FlipFlop regin6/q_5 has been replicated 1 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop regin6/q_5 connected to a primary input has been replicated
+FlipFlop regin7/q_5 has been replicated 3 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop regin7/q_5 connected to a primary input has been replicated
+FlipFlop regin8/q_5 has been replicated 3 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop regin8/q_5 connected to a primary input has been replicated
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 98
+ Flip-Flops                                            : 98
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : full_17_comparators.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 408
+#      LUT2                        : 4
+#      LUT3                        : 11
+#      LUT4                        : 114
+#      LUT5                        : 181
+#      LUT6                        : 97
+#      MUXF7                       : 1
+# FlipFlops/Latches                : 98
+#      FDRE                        : 98
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 77
+#      IBUF                        : 50
+#      OBUF                        : 27
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vlx240tff1156-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              98  out of  301440     0%  
+ Number of Slice LUTs:                  407  out of  150720     0%  
+    Number used as Logic:               407  out of  150720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    478
+   Number with an unused Flip Flop:     380  out of    478    79%  
+   Number with an unused LUT:            71  out of    478    14%  
+   Number of fully used LUT-FF pairs:    27  out of    478     5%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          78
+ Number of bonded IOBs:                  78  out of    600    13%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 98    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 8.649ns (Maximum Frequency: 115.620MHz)
+   Minimum input arrival time before clock: 1.003ns
+   Maximum output required time after clock: 0.777ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.649ns (frequency: 115.620MHz)
+  Total number of paths / destination ports: 82430828 / 27
+-------------------------------------------------------------------------
+Delay:               8.649ns (Levels of Logic = 12)
+  Source:            regin8/q_3 (FF)
+  Destination:       regout3/q_4 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: regin8/q_3 to regout3/q_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            11   0.375   0.704  regin8/q_3 (regin8/q_3)
+     LUT4:I0->O           12   0.068   0.653  c4/LLR1[5]_LLR2[5]_LessThan_1_o15_SW3 (N48)
+     LUT5:I2->O           12   0.068   0.563  c4/LLR1[5]_LLR2[5]_LessThan_1_o15 (c4/LLR1[5]_LLR2[5]_LessThan_1_o)
+     LUT6:I4->O            8   0.068   0.627  c8/LLR1[5]_LLR2[5]_LessThan_1_o23 (c8/LLR1[5]_LLR2[5]_LessThan_1_o22)
+     LUT5:I2->O            2   0.068   0.784  c8/Mmux_maxi11 (max8<0>)
+     LUT6:I0->O            5   0.068   0.444  c12/LLR1[5]_LLR2[5]_LessThan_1_o13 (c12/LLR1[5]_LLR2[5]_LessThan_1_o12)
+     LUT5:I4->O            2   0.068   0.784  c12/Mmux_mium11 (m12<0>)
+     LUT6:I0->O            7   0.068   0.457  c14/LLR1[5]_LLR2[5]_LessThan_1_o13 (c14/LLR1[5]_LLR2[5]_LessThan_1_o12)
+     LUT5:I4->O            2   0.068   0.784  c14/Mmux_maxi11 (max14<0>)
+     LUT6:I0->O            8   0.068   0.463  c16/LLR1[5]_LLR2[5]_LessThan_1_o33 (c16/LLR1[5]_LLR2[5]_LessThan_1_o32)
+     LUT5:I4->O            4   0.068   0.511  c16/Mmux_mium51 (min16<4>)
+     LUT6:I4->O           15   0.068   0.673  c17/LLR1[5]_LLR2[5]_LessThan_1_o12 (c17/LLR1[5]_LLR2[5]_LessThan_1_o11)
+     LUT5:I2->O            1   0.068   0.000  c17/Mmux_min_2pos121 (minpos17<1>)
+     FDRE:D                    0.011          re2/q_1
+    ----------------------------------------
+    Total                      8.649ns (1.202ns logic, 7.447ns route)
+                                       (13.9% logic, 86.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 267 / 267
+-------------------------------------------------------------------------
+Offset:              1.003ns (Levels of Logic = 1)
+  Source:            clr (PAD)
+  Destination:       regout3/q_5 (FF)
+  Destination Clock: clk rising
+
+  Data Path: clr to regout3/q_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            98   0.003   0.566  clr_IBUF (clr_IBUF)
+     FDRE:R                    0.434          regout3/q_0
+    ----------------------------------------
+    Total                      1.003ns (0.437ns logic, 0.566ns route)
+                                       (43.6% logic, 56.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 27 / 27
+-------------------------------------------------------------------------
+Offset:              0.777ns (Levels of Logic = 1)
+  Source:            regout1/q_5 (FF)
+  Destination:       min<5> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: regout1/q_5 to min<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.375   0.399  regout1/q_5 (regout1/q_5)
+     OBUF:I->O                 0.003          min_5_OBUF (min<5>)
+    ----------------------------------------
+    Total                      0.777ns (0.378ns logic, 0.399ns route)
+                                       (48.6% logic, 51.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    8.649|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 15.15 secs
+ 
+--> 
+
+
+Total memory usage is 411488 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :   18 (   0 filtered)
+

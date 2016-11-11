@@ -1,0 +1,35 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Fri Nov 11 16:57:39 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+TIMEGRP clk = BEL "regout3/q_5" BEL "regout3/q_4" BEL "regout3/q_3" BEL
+        "regout3/q_2" BEL "regout3/q_1" BEL "regout3/q_0" BEL "regout2/q_5"
+        BEL "regout2/q_4" BEL "regout2/q_3" BEL "regout2/q_2" BEL
+        "regout2/q_1" BEL "regout2/q_0" BEL "regout1/q_5" BEL "regout1/q_4"
+        BEL "regout1/q_3" BEL "regout1/q_2" BEL "regout1/q_1" BEL
+        "regout1/q_0" BEL "regin8/q_5" BEL "regin8/q_4" BEL "regin8/q_3" BEL
+        "regin8/q_2" BEL "regin8/q_1" BEL "regin8/q_0" BEL "regin7/q_5" BEL
+        "regin7/q_4" BEL "regin7/q_3" BEL "regin7/q_2" BEL "regin7/q_1" BEL
+        "regin7/q_0" BEL "regin6/q_5" BEL "regin6/q_4" BEL "regin6/q_3" BEL
+        "regin6/q_2" BEL "regin6/q_1" BEL "regin6/q_0" BEL "regin5/q_5" BEL
+        "regin5/q_4" BEL "regin5/q_3" BEL "regin5/q_2" BEL "regin5/q_1" BEL
+        "regin5/q_0" BEL "regin4/q_5" BEL "regin4/q_4" BEL "regin4/q_3" BEL
+        "regin4/q_2" BEL "regin4/q_1" BEL "regin4/q_0" BEL "regin3/q_5" BEL
+        "regin3/q_4" BEL "regin3/q_3" BEL "regin3/q_2" BEL "regin3/q_1" BEL
+        "regin3/q_0" BEL "regin2/q_5" BEL "regin2/q_4" BEL "regin2/q_3" BEL
+        "regin2/q_2" BEL "regin2/q_1" BEL "regin2/q_0" BEL "regin1/q_5" BEL
+        "regin1/q_4" BEL "regin1/q_3" BEL "regin1/q_2" BEL "regin1/q_1" BEL
+        "regin1/q_0" BEL "re3/q_2" BEL "re3/q_1" BEL "re3/q_0" BEL "re2/q_2"
+        BEL "re2/q_1" BEL "re2/q_0" BEL "re1/q_2" BEL "re1/q_1" BEL "re1/q_0"
+        BEL "regin7/q_5_1" BEL "regin2/q_5_1" BEL "regin4/q_5_1" BEL
+        "regin1/q_5_1" BEL "regin3/q_5_1" BEL "regin6/q_5_1" BEL
+        "regin8/q_5_1" BEL "regin5/q_5_1" BEL "regin2/q_5_2" BEL
+        "regin4/q_5_2" BEL "regin8/q_5_2" BEL "regin1/q_5_2" BEL
+        "regin3/q_5_2" BEL "regin7/q_5_2" BEL "regin7/q_5_3" BEL
+        "regin4/q_5_3" BEL "regin3/q_5_3" BEL "regin8/q_5_3" BEL
+        "regin2/q_5_3" BEL "regin1/q_5_3" BEL "regin1/q_5_4" BEL
+        "regin3/q_5_4" BEL "regin2/q_5_4" BEL "clk_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "clk" 9 ns HIGH 50%;
+SCHEMATIC END;
+

@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_7_comparators/minimum_7comp.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_7_comparators/minimum_7comp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx240t-ff1156-1 minimum_7comp.ngc minimum_7comp.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o minimum_7comp_map.ncd minimum_7comp.ngd minimum_7comp.pcf 
+par -w -intstyle ise -ol high -mt off minimum_7comp_map.ncd minimum_7comp.ncd minimum_7comp.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml minimum_7comp.twx minimum_7comp.ncd -o minimum_7comp.twr minimum_7comp.pcf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_7_comparators/minimum_7comp.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_7_comparators/minimum_7comp.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_7_comparators/minimum_7comp.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_7_comparators/minimum_7comp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx240t-ff1156-1 minimum_7comp.ngc minimum_7comp.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o minimum_7comp_map.ncd minimum_7comp.ngd minimum_7comp.pcf 
+par -w -intstyle ise -ol high -mt off minimum_7comp_map.ncd minimum_7comp.ncd minimum_7comp.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml minimum_7comp.twx minimum_7comp.ncd -o minimum_7comp.twr minimum_7comp.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc minimum_7comp.ucf -p xc6vlx240t-ff1156-1 minimum_7comp.ngc minimum_7comp.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o minimum_7comp_map.ncd minimum_7comp.ngd minimum_7comp.pcf 
+par -w -intstyle ise -ol high -mt off minimum_7comp_map.ncd minimum_7comp.ncd minimum_7comp.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml minimum_7comp.twx minimum_7comp.ncd -o minimum_7comp.twr minimum_7comp.pcf -ucf minimum_7comp.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc minimum_7comp.ucf -p xc6vlx240t-ff1156-1 minimum_7comp.ngc minimum_7comp.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o minimum_7comp_map.ncd minimum_7comp.ngd minimum_7comp.pcf 
+par -w -intstyle ise -ol high -mt off minimum_7comp_map.ncd minimum_7comp.ncd minimum_7comp.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml minimum_7comp.twx minimum_7comp.ncd -o minimum_7comp.twr minimum_7comp.pcf -ucf minimum_7comp.ucf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_7_comparators/minimum_7comp.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_7_comparators/minimum_7comp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc minimum_7comp.ucf -p xc6vlx240t-ff1156-1 minimum_7comp.ngc minimum_7comp.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o minimum_7comp_map.ncd minimum_7comp.ngd minimum_7comp.pcf 
+par -w -intstyle ise -ol high -mt off minimum_7comp_map.ncd minimum_7comp.ncd minimum_7comp.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml minimum_7comp.twx minimum_7comp.ncd -o minimum_7comp.twr minimum_7comp.pcf -ucf minimum_7comp.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc minimum_7comp.ucf -p xc6vlx240t-ff1156-1 minimum_7comp.ngc minimum_7comp.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o minimum_7comp_map.ncd minimum_7comp.ngd minimum_7comp.pcf 
+par -w -intstyle ise -ol high -mt off minimum_7comp_map.ncd minimum_7comp.ncd minimum_7comp.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml minimum_7comp.twx minimum_7comp.ncd -o minimum_7comp.twr minimum_7comp.pcf -ucf minimum_7comp.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc minimum_7comp.ucf -p xc6vlx240t-ff1156-1 minimum_7comp.ngc minimum_7comp.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o minimum_7comp_map.ncd minimum_7comp.ngd minimum_7comp.pcf 
+par -w -intstyle ise -ol high -mt off minimum_7comp_map.ncd minimum_7comp.ncd minimum_7comp.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml minimum_7comp.twx minimum_7comp.ncd -o minimum_7comp.twr minimum_7comp.pcf -ucf minimum_7comp.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc minimum_7comp.ucf -p xc6vlx240t-ff1156-1 minimum_7comp.ngc minimum_7comp.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o minimum_7comp_map.ncd minimum_7comp.ngd minimum_7comp.pcf 
+par -w -intstyle ise -ol high -mt off minimum_7comp_map.ncd minimum_7comp.ncd minimum_7comp.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml minimum_7comp.twx minimum_7comp.ncd -o minimum_7comp.twr minimum_7comp.pcf -ucf minimum_7comp.ucf 

@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx240t-ff1156-1 full_17_comparators.ngc full_17_comparators.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc full_17_comparators.ucf -p xc6vlx240t-ff1156-1 full_17_comparators.ngc full_17_comparators.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_17_comparators_map.ncd full_17_comparators.ngd full_17_comparators.pcf 
+par -w -intstyle ise -ol high -mt off full_17_comparators_map.ncd full_17_comparators.ncd full_17_comparators.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml full_17_comparators.twx full_17_comparators.ncd -o full_17_comparators.twr full_17_comparators.pcf -ucf full_17_comparators.ucf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc full_17_comparators.ucf -p xc6vlx240t-ff1156-1 full_17_comparators.ngc full_17_comparators.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_17_comparators_map.ncd full_17_comparators.ngd full_17_comparators.pcf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc full_17_comparators.ucf -p xc6vlx240t-ff1156-1 full_17_comparators.ngc full_17_comparators.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_17_comparators_map.ncd full_17_comparators.ngd full_17_comparators.pcf 
+par -w -intstyle ise -ol high -mt off full_17_comparators_map.ncd full_17_comparators.ncd full_17_comparators.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml full_17_comparators.twx full_17_comparators.ncd -o full_17_comparators.twr full_17_comparators.pcf -ucf full_17_comparators.ucf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc full_17_comparators.ucf -p xc6vlx240t-ff1156-1 full_17_comparators.ngc full_17_comparators.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_17_comparators_map.ncd full_17_comparators.ngd full_17_comparators.pcf 
+par -w -intstyle ise -ol high -mt off full_17_comparators_map.ncd full_17_comparators.ncd full_17_comparators.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml full_17_comparators.twx full_17_comparators.ncd -o full_17_comparators.twr full_17_comparators.pcf -ucf full_17_comparators.ucf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc full_17_comparators.ucf -p xc6vlx240t-ff1156-1 full_17_comparators.ngc full_17_comparators.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_17_comparators_map.ncd full_17_comparators.ngd full_17_comparators.pcf 
+par -w -intstyle ise -ol high -mt off full_17_comparators_map.ncd full_17_comparators.ncd full_17_comparators.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml full_17_comparators.twx full_17_comparators.ncd -o full_17_comparators.twr full_17_comparators.pcf -ucf full_17_comparators.ucf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc full_17_comparators.ucf -p xc6vlx240t-ff1156-1 full_17_comparators.ngc full_17_comparators.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_17_comparators_map.ncd full_17_comparators.ngd full_17_comparators.pcf 
+par -w -intstyle ise -ol high -mt off full_17_comparators_map.ncd full_17_comparators.ncd full_17_comparators.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml full_17_comparators.twx full_17_comparators.ncd -o full_17_comparators.twr full_17_comparators.pcf -ucf full_17_comparators.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc full_17_comparators.ucf -p xc6vlx240t-ff1156-1 full_17_comparators.ngc full_17_comparators.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_17_comparators_map.ncd full_17_comparators.ngd full_17_comparators.pcf 
+par -w -intstyle ise -ol high -mt off full_17_comparators_map.ncd full_17_comparators.ncd full_17_comparators.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml full_17_comparators.twx full_17_comparators.ncd -o full_17_comparators.twr full_17_comparators.pcf -ucf full_17_comparators.ucf 

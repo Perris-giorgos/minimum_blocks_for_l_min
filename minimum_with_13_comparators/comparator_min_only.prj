@@ -1,0 +1,2 @@
+vhdl work "my_types_pkg.vhd"
+vhdl work "comparator_min_only.vhd"

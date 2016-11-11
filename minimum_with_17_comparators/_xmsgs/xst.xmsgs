@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd</arg>&quot; line <arg fmt="%s" index="2">86</arg>: Output port &lt;<arg fmt="%s" index="3">maxi</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd</arg>&quot; line <arg fmt="%s" index="2">86</arg>: Output port &lt;<arg fmt="%s" index="3">min_2pos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd</arg>&quot; line <arg fmt="%s" index="2">87</arg>: Output port &lt;<arg fmt="%s" index="3">maxi</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd</arg>&quot; line <arg fmt="%s" index="2">87</arg>: Output port &lt;<arg fmt="%s" index="3">min_2pos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd</arg>&quot; line <arg fmt="%s" index="2">108</arg>: Output port &lt;<arg fmt="%s" index="3">mium</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd</arg>&quot; line <arg fmt="%s" index="2">108</arg>: Output port &lt;<arg fmt="%s" index="3">minpos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd</arg>&quot; line <arg fmt="%s" index="2">113</arg>: Output port &lt;<arg fmt="%s" index="3">maxi</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c15</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd</arg>&quot; line <arg fmt="%s" index="2">113</arg>: Output port &lt;<arg fmt="%s" index="3">min_2pos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c15</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd</arg>&quot; line <arg fmt="%s" index="2">114</arg>: Output port &lt;<arg fmt="%s" index="3">maxi</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/peraxor/MEGAsync/27-7/VHDL/BPmin/blockminimum/minimum_with_17_comparators/full_17_comparators.vhd</arg>&quot; line <arg fmt="%s" index="2">114</arg>: Output port &lt;<arg fmt="%s" index="3">min_2pos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="old" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">regin1/q_5</arg> connected to a primary input has been replicated
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="old" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">regin2/q_5</arg> connected to a primary input has been replicated
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="old" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">regin3/q_5</arg> connected to a primary input has been replicated
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="old" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">regin4/q_5</arg> connected to a primary input has been replicated
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="old" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">regin5/q_5</arg> connected to a primary input has been replicated
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="old" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">regin6/q_5</arg> connected to a primary input has been replicated
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="old" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">regin7/q_5</arg> connected to a primary input has been replicated
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="old" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">regin8/q_5</arg> connected to a primary input has been replicated
+</msg>
+
+</messages>
+
