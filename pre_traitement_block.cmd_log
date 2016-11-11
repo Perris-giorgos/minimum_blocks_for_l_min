@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx240t-ff1156-1 "pre_traitement_block.ngc" pre_traitement_block.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pre_traitement_block_map.ncd pre_traitement_block.ngd pre_traitement_block.pcf 
+par -w -intstyle ise -ol high -mt off pre_traitement_block_map.ncd pre_traitement_block.ncd pre_traitement_block.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml pre_traitement_block.twx pre_traitement_block.ncd -o pre_traitement_block.twr pre_traitement_block.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pre_traitement_block.ucf -p xc6vlx240t-ff1156-1 "pre_traitement_block.ngc" pre_traitement_block.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pre_traitement_block.ucf -p xc6vlx240t-ff1156-1 "pre_traitement_block.ngc" pre_traitement_block.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pre_traitement_block_map.ncd pre_traitement_block.ngd pre_traitement_block.pcf 
+par -w -intstyle ise -ol high -mt off pre_traitement_block_map.ncd pre_traitement_block.ncd pre_traitement_block.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml pre_traitement_block.twx pre_traitement_block.ncd -o pre_traitement_block.twr pre_traitement_block.pcf -ucf pre_traitement_block.ucf 

@@ -1,0 +1,443 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: pre_traitement_block.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pre_traitement_block.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pre_traitement_block"
+Output Format                      : NGC
+Target Device                      : xc6vlx240t-1-ff1156
+
+---- Source Options
+Top Module Name                    : pre_traitement_block
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" into library work
+Parsing entity <pre_traitement_block>.
+Parsing architecture <Behavioral> of entity <pre_traitement_block>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <pre_traitement_block> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 36: load should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 37: cells should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 46: load should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 47: cells should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 57: load should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 58: cells should be on the sensitivity list of the process
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <pre_traitement_block>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd".
+        n = 6
+    Found 6-bit register for signal <min0>.
+    Found 6-bit register for signal <min1>.
+    Found 6-bit register for signal <min2>.
+    Found 3-bit register for signal <pos0>.
+    Found 3-bit register for signal <pos1>.
+    Found 3-bit register for signal <pos2>.
+WARNING:Xst:737 - Found 1-bit latch for signal <b>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <c>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <a>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 6-bit comparator greater for signal <new_info[5]_cells[0][5]_LessThan_1_o> created at line 37
+    Found 6-bit comparator greater for signal <new_info[5]_cells[1][5]_LessThan_2_o> created at line 47
+    Found 6-bit comparator greater for signal <new_info[5]_cells[2][5]_LessThan_3_o> created at line 58
+    Summary:
+	inferred  27 D-type flip-flop(s).
+	inferred   3 Latch(s).
+	inferred   3 Comparator(s).
+	inferred   6 Multiplexer(s).
+Unit <pre_traitement_block> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 6
+ 3-bit register                                        : 3
+ 6-bit register                                        : 3
+# Latches                                              : 3
+ 1-bit latch                                           : 3
+# Comparators                                          : 3
+ 6-bit comparator greater                              : 3
+# Multiplexers                                         : 6
+ 3-bit 2-to-1 multiplexer                              : 3
+ 6-bit 2-to-1 multiplexer                              : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 27
+ Flip-Flops                                            : 27
+# Comparators                                          : 3
+ 6-bit comparator greater                              : 3
+# Multiplexers                                         : 8
+ 1-bit 2-to-1 multiplexer                              : 3
+ 3-bit 2-to-1 multiplexer                              : 2
+ 6-bit 2-to-1 multiplexer                              : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <pre_traitement_block> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pre_traitement_block, actual ratio is 0.
+FlipFlop cells_0_5 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop cells_0_4 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop cells_0_3 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop cells_0_2 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop cells_0_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop cells_0_0 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop pcells_0_2 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop pcells_0_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop pcells_0_0 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 36
+ Flip-Flops                                            : 36
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : pre_traitement_block.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 36
+#      LUT2                        : 1
+#      LUT3                        : 3
+#      LUT4                        : 15
+#      LUT5                        : 11
+#      LUT6                        : 5
+#      MUXF7                       : 1
+# FlipFlops/Latches                : 39
+#      FDE                         : 12
+#      FDSE                        : 24
+#      LD                          : 3
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 37
+#      IBUF                        : 10
+#      OBUF                        : 27
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vlx240tff1156-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              30  out of  301440     0%  
+ Number of Slice LUTs:                   35  out of  150720     0%  
+    Number used as Logic:                35  out of  150720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     39
+   Number with an unused Flip Flop:       9  out of     39    23%  
+   Number with an unused LUT:             4  out of     39    10%  
+   Number of fully used LUT-FF pairs:    26  out of     39    66%  
+   Number of unique control sets:         7
+
+IO Utilization: 
+ Number of IOs:                          39
+ Number of bonded IOBs:                  39  out of    600     6%  
+    IOB Flip Flops/Latches:               9
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 36    |
+load                               | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 0.891ns (Maximum Frequency: 1122.334MHz)
+   Minimum input arrival time before clock: 1.789ns
+   Maximum output required time after clock: 0.797ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 0.891ns (frequency: 1122.334MHz)
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Delay:               0.891ns (Levels of Logic = 1)
+  Source:            cells_1_3 (FF)
+  Destination:       cells_2_3 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: cells_1_3 to cells_2_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             4   0.375   0.437  cells_1_3 (cells_1_3)
+     LUT4:I3->O            1   0.068   0.000  Mmux_cells[2][5]_cells[1][5]_mux_8_OUT41 (cells[2][5]_cells[1][5]_mux_8_OUT<3>)
+     FDSE:D                    0.011          cells_2_3
+    ----------------------------------------
+    Total                      0.891ns (0.454ns logic, 0.437ns route)
+                                       (51.0% logic, 49.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 72 / 72
+-------------------------------------------------------------------------
+Offset:              1.555ns (Levels of Logic = 2)
+  Source:            clear (PAD)
+  Destination:       pcells_0_0 (FF)
+  Destination Clock: clock rising
+
+  Data Path: clear to pcells_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            27   0.003   0.789  clear_IBUF (clear_IBUF)
+     LUT4:I0->O            6   0.068   0.432  _n0082_inv1 (_n0082_inv)
+     FDE:CE                    0.263          pcells_0_0
+    ----------------------------------------
+    Total                      1.555ns (0.334ns logic, 1.221ns route)
+                                       (21.5% logic, 78.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'load'
+  Total number of paths / destination ports: 28 / 3
+-------------------------------------------------------------------------
+Offset:              1.789ns (Levels of Logic = 4)
+  Source:            new_info<2> (PAD)
+  Destination:       a (LATCH)
+  Destination Clock: load falling
+
+  Data Path: new_info<2> to a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   0.003   0.815  new_info_2_IBUF (new_info_2_IBUF)
+     LUT6:I1->O            2   0.068   0.587  new_info[5]_cells[0][5]_LessThan_1_o2 (new_info[5]_cells[0][5]_LessThan_1_o1)
+     LUT6:I3->O            1   0.068   0.000  new_info[5]_cells[0][5]_LessThan_1_o1_G (N12)
+     MUXF7:I1->O           1   0.248   0.000  new_info[5]_cells[0][5]_LessThan_1_o1 (new_info[5]_cells[0][5]_LessThan_1_o)
+     LD:D                     -0.047          a
+    ----------------------------------------
+    Total                      1.789ns (0.387ns logic, 1.402ns route)
+                                       (21.6% logic, 78.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 27 / 27
+-------------------------------------------------------------------------
+Offset:              0.797ns (Levels of Logic = 1)
+  Source:            cells_1_4 (FF)
+  Destination:       min1<4> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: cells_1_4 to min1<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             4   0.375   0.419  cells_1_4 (cells_1_4)
+     OBUF:I->O                 0.003          min1_4_OBUF (min1<4>)
+    ----------------------------------------
+    Total                      0.797ns (0.378ns logic, 0.419ns route)
+                                       (47.4% logic, 52.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    0.891|         |         |         |
+load           |         |    1.915|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock load
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    2.130|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.64 secs
+ 
+--> 
+
+
+Total memory usage is 410800 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

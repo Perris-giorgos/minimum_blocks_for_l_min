@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Fri Nov 11 14:18:23 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+TIMEGRP clock = BEL "cells_0_0" BEL "cells_0_1" BEL "cells_0_2" BEL
+        "cells_0_3" BEL "cells_0_4" BEL "cells_0_5" BEL "pcells_0_0" BEL
+        "pcells_0_1" BEL "pcells_0_2" BEL "cells_1_0" BEL "cells_1_1" BEL
+        "cells_1_2" BEL "cells_1_3" BEL "cells_1_4" BEL "cells_1_5" BEL
+        "pcells_1_0" BEL "pcells_1_1" BEL "pcells_1_2" BEL "pcells_2_0" BEL
+        "pcells_2_1" BEL "pcells_2_2" BEL "cells_2_0" BEL "cells_2_1" BEL
+        "cells_2_2" BEL "cells_2_3" BEL "cells_2_4" BEL "cells_2_5" BEL
+        "clock_BUFGP/BUFG" BEL "cells_0_5_1" BEL "cells_0_4_1" BEL
+        "cells_0_3_1" BEL "cells_0_2_1" BEL "cells_0_1_1" BEL "cells_0_0_1"
+        BEL "pcells_0_2_1" BEL "pcells_0_1_1" BEL "pcells_0_0_1";
+TS_clock = PERIOD TIMEGRP "clock" 20 ns HIGH 50%;
+SCHEMATIC END;
+

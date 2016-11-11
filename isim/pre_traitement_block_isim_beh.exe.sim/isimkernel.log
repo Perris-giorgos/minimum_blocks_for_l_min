@@ -1,0 +1,10 @@
+Command line:
+   pre_traitement_block_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58330
+
+Fri Nov 11 14:05:15 2016
+
+
+ Elaboration Time: 0.01 sec

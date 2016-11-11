@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 36: <arg fmt="%s" index="1">load</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 37: <arg fmt="%s" index="1">cells</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 46: <arg fmt="%s" index="1">load</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 47: <arg fmt="%s" index="1">cells</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 57: <arg fmt="%s" index="1">load</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/peraxor/MEGAsync/27-7/VHDL/BPmin/pre_traitement_block/New Folder/insertion_sort/pre_traitement_block.vhd" Line 58: <arg fmt="%s" index="1">cells</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">b</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">c</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">a</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+</messages>
+
